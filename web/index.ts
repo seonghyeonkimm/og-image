@@ -145,9 +145,25 @@ const markdownOptions: DropdownOption[] = [
 ];
 
 const imageLightOptions: DropdownOption[] = [
-    { text: 'Vercel', value: 'https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg' },
-    { text: 'Next.js', value: 'https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg' },
-    { text: 'Hyper', value: 'https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg' },
+  {
+    text: "Vercel",
+    value:
+      "https://assets.vercel.com/image/upload/front/assets/design/vercel-triangle-black.svg",
+  },
+  {
+    text: "Next.js",
+    value:
+      "https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg",
+  },
+  {
+    text: "Hyper",
+    value:
+      "https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg",
+  },
+  {
+    text: "SeonghyeonKim",
+    value: "https://seonghyeonkimm.github.io/static/images/logo.png",
+  },
 ];
 
 const imageDarkOptions: DropdownOption[] = [
