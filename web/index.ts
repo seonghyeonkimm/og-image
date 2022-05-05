@@ -292,8 +292,11 @@ const App = (_: any, state: AppState, setState: SetState) => {
                             value: imageOptions[selectedImageIndex].value,
                             onchange: (val: string) =>  {
                                 let clone = [...images];
+                                console.log('🚀 ~ clone', clone);
                                 clone[0] = val;
                                 const selected = imageOptions.map(o => o.value).indexOf(val);
+                                console.log('🚀 ~ selected', selected);
+                                console.log({ images: clone, selectedImageIndex: selected });
                                 setLoadingState({ images: clone, selectedImageIndex: selected });
                             }
                         }),
