@@ -162,7 +162,7 @@ const imageLightOptions: DropdownOption[] = [
   },
   {
     text: "SeonghyeonKim",
-    value: "https://seonghyeonkimm.github.io/static/images/logo.png",
+    value: "https://seonghyeonkimm.github.io/static/images/logo.svg",
   },
 ];
 
