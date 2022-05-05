@@ -159,12 +159,7 @@ const imageLightOptions: DropdownOption[] = [
     text: "Hyper",
     value:
       "https://assets.vercel.com/image/upload/front/assets/design/hyper-color-logo.svg",
-  },
-  {
-    text: "SeonghyeonKim",
-    value:
-      "https://cdn.jsdelivr.net/gh/seonghyeonkimm/seonghyeonkimm.github.io/docs/static/images/logo.svg",
-  },
+  }
 ];
 
 const imageDarkOptions: DropdownOption[] = [
@@ -292,11 +287,8 @@ const App = (_: any, state: AppState, setState: SetState) => {
                             value: imageOptions[selectedImageIndex].value,
                             onchange: (val: string) =>  {
                                 let clone = [...images];
-                                console.log('🚀 ~ clone', clone);
                                 clone[0] = val;
                                 const selected = imageOptions.map(o => o.value).indexOf(val);
-                                console.log('🚀 ~ selected', selected);
-                                console.log({ images: clone, selectedImageIndex: selected });
                                 setLoadingState({ images: clone, selectedImageIndex: selected });
                             }
                         }),
